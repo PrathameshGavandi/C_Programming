@@ -1,5 +1,4 @@
-# C Programming Repository
-A collection of C programs demonstrating fundamental concepts, problem-solving exercises, and basic projects for learning and portfolio purposes.
+# C Programming
 
 ## Description
 This repository contains a collection of C programs covering basic to intermediate concepts. It includes examples of loops, arrays, functions, pointers, structures, file handling, and problem-solving exercises. This repository is ideal for learning C and showcasing programming skills to recruiters.
