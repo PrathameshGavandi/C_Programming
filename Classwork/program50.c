@@ -1,0 +1,37 @@
+// Factors of input
+
+#include <stdio.h>
+#include <stdbool.h>
+
+void DisplayFactors(int iNo)
+{
+    int iCnt = 0;
+
+    if (iNo < 0)
+    {
+        iNo = -iNo;
+    }
+
+    for (iCnt = 1; iCnt <= (iNo / 2); iCnt++)
+    {
+        if ((iNo % iCnt) == 0)
+        {
+            printf("%d\t", iCnt);
+        }
+    }
+}
+
+// Time complexity : O(N/2)
+
+int main()
+{
+    int iValue = 0;
+    // int iRet=0;
+
+    printf("Please enter number\n");
+    scanf("%d", &iValue);
+
+    DisplayFactors(iValue);
+
+    return 0;
+}
